@@ -3,7 +3,7 @@ const replace = require('replace-in-file');
 const run = (config, {logger}) => {
     if (config) {
         return replace(config)
-            .then(results => ({
+            .then(() => ({
                 status: 'complete',
                 message: 'Token replacement complete'
             }))
