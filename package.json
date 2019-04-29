@@ -1,0 +1,33 @@
+{
+	"name": "@deg-skeletor/plugin-tokenreplace",
+	"version": "1.0.0",
+	"description": "A Skeletor plugin for replacing token strings within files",
+	"main": "index.js",
+	"scripts": {
+		"test": "jest",
+		"lint": "eslint index.js"
+	},
+	"author": "Aaron Ladage <aladage@degdigital.com>",
+	"license": "ISC",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/deg-skeletor/skeletor-plugin-tokenreplace.git"
+	},
+	"peerDependencies": {
+		"@deg-skeletor/core": "^1.0.0"
+	},
+	"dependencies": {
+		"replace-in-file": "^4.0.0"
+	},
+	"devDependencies": {
+		"eslint": "^4.17.0",
+		"jest": "^24.7.1"
+	},
+	"publishConfig": {
+		"access": "public"
+	},
+	"keywords": [
+		"skeletor",
+		"skeletor-plugin"
+	]
+}
