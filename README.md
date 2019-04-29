@@ -69,13 +69,13 @@ This plugin passes its `config` object directly to the `replace-in-file` plugin.
 ### Configuration Options
 
 #### files
-Type: `String` or `Array` 
+Type: `String` or `Array`  
 One or more source file paths.
 
 #### from
-Type: `String` or `Array` 
+Type: `String` or `Array`  
 One or more values that will be replaced by the `from` value(s).
 
 #### to
-Type: `String` or `Array` 
+Type: `String` or `Array`  
 One or more values that will replace the `to` value(s).
