@@ -1,5 +1,5 @@
 # Skeletor Token Replace Plugin
-[![Build Status](https://travis-ci.org/deg-skeletor/skeletor-plugin-tokenreplace.svg?branch=master)](https://travis-ci.org/deg-skeletor/skeletor-plugin-tokenreplace)
+![Run Tests](https://github.com/deg-skeletor/skeletor-plugin-tokenreplace/workflows/Run%20Tests/badge.svg)
 
 This plugin replaces text content in one or more files or globs using [replace-in-file](https://www.npmjs.com/package/replace-in-file). It is part of the Skeletor ecosystem. To learn more about Skeletor, [go here](https://github.com/deg-skeletor/skeletor-core).
 
